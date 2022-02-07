@@ -40,14 +40,10 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
-
-  border:1px solid #e5e5e5;
-  border-width:1px 0;
   padding:20px 0;
   margin:0 0 20px;
 
-  position: absolute;
-  top: 50%;
+  position: static;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
