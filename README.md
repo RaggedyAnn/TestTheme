@@ -1,2 +1,2 @@
-- Særligt for Digital Design og Informationsvidenskab
-- Særligt for Audiodesign
+# Særligt for Digital Design og Informationsvidenskab
+# Særligt for Audiodesign
