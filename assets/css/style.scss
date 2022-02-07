@@ -2,7 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
- /* unvisited link */
+a {
+  text-decoration: underline;
+}
+
+/* unvisited link */
 a:link {
   color: #002546;
 }
@@ -14,8 +18,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
- font-weight:normal
- text-decoration: underline;
+ font-weight:normal;
  color: #2b80a4;
 }
 
