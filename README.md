@@ -9,8 +9,8 @@ txtFile.onload = function() {
     allTextLines = allText.split(/\r\n|\n/);
 
     for(var i = 0; i < allTextLines.length; i++) {
-        document.section.innerHTML += allTextLines[i];
-        document.section.innerHTML += '<br/>';
+        document.body.div.section.innerHTML += allTextLines[i];
+        document.body.div.section.innerHTML += '<br/>';
     }
 }
 
