@@ -18,9 +18,10 @@ permalink: /audiodesign/
 
 <table><tr>
 <td> <img src="https://www.neumann.com/homestudio/pictures/203/show/750x750/crop/TLM103+with+SG2.png?sh=e8cb782eee096d13" alt="Neumann TLM 103" style="width: 250px;"/> </td>
-<td> <p> Neumann TLM 103 </p> </td>
+<td> <p> Neumann TLM 103 <br> Kan udlånes </br> </p> </td>
 </tr></table>
 
+<!--
 A|B
 -|-
-![](https://www.neumann.com/homestudio/pictures/203/show/750x750/crop/TLM103+with+SG2.png?sh=e8cb782eee096d13) | Neumann TLM 103
+![](https://www.neumann.com/homestudio/pictures/203/show/750x750/crop/TLM103+with+SG2.png?sh=e8cb782eee096d13) | Neumann TLM 103 <br> Kan udlånes </br> -->
