@@ -16,7 +16,7 @@ permalink: /audiodesign/
 ## Neumann TLM 103
 <table><tr>
 <td> <img src="https://www.neumann.com/homestudio/pictures/203/show/750x750/crop/TLM103+with+SG2.png?sh=e8cb782eee096d13" alt="Neumann TLM 103" style="width: 200px;"/> </td>
-<td> <p> Neumann TLM 103 <br> <b>Kan udlånes</b> </br> </p> </td>
+<td> <p> Neumann TLM 103 <br> <b>Kan udlånes </b> </p> </td>
 </tr></table>
 
 <!--
