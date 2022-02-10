@@ -2,6 +2,8 @@
 &nbsp;
 ## [Audiodesign Faciliteter og Udstyr](https://raggedyann.github.io/TestTheme/audiodesign/)
 
+<p id="demo"></p>
+
 <script type="text/javascript">
 var txtFile = new XMLHttpRequest();
 txtFile.onload = function() {
@@ -9,8 +11,8 @@ txtFile.onload = function() {
     allTextLines = allText.split(/\r\n|\n/);
 
     for(var i = 0; i < allTextLines.length; i++) {
-        document.body.innerHTML += allTextLines[i];
-        document.body.innerHTML += '<br/>';
+        document.getElementById("demo").innerHTML += allTextLines[i];
+        document.getElementById("demo").innerHTML += '<br/>';
     }
 }
 
