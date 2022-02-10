@@ -15,6 +15,8 @@ txtFile.onload = function() {
         document.getElementById("demo").innerHTML += '<br/>';
     }
     document.getElementById("demo").innerHTML += allTextLines[0];
+    allTextLines[0];
+}
 }
 
 txtFile.open("get", "test.csv", true);
