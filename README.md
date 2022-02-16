@@ -2,6 +2,8 @@
 &nbsp;
 ## [Audiodesign Faciliteter og Udstyr](https://raggedyann.github.io/TestTheme/audiodesign/)
 
+## Indhold
+
 <section id="demo" markdown="block"></section>
 
 <script type="text/javascript">
@@ -13,6 +15,7 @@ txtFile.onload = function() {
       elements = allTextLines[i].split(",");
       document.getElementById("demo").innerHTML += '<a href="#' + i + '">' + elements[0] + '</a><br/>';
     }
+    document.getElementById("demo").innerHTML += '<hr>';
 
     for(var i = 1; i < allTextLines.length; i++) {
         elements = allTextLines[i].split(",");
