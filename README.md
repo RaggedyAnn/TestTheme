@@ -11,7 +11,7 @@ txtFile.onload = function() {
     allTextLines = allText.split(/\r\n|\n/);
     for(var i = 1; i < allTextLines.length; i++) {
       elements = allTextLines[i].split(",");
-      document.getElementById("demo").innerHTML += '<a href="#' + i + '">' + elements[i] + '</a><br/>';
+      document.getElementById("demo").innerHTML += '<a href="#' + i + '">' + elements[0] + '</a><br/>';
     }
 
     for(var i = 1; i < allTextLines.length; i++) {
