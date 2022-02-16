@@ -12,14 +12,17 @@ txtFile.onload = function() {
 
     for(var i = 0; i < allTextLines.length; i++) {
         document.getElementById("demo").innerHTML += allTextLines[i];
+        document.getElementById("demo").innerHTML += '<br>';
         elements = allTextLines[i].split(",");
         document.getElementById("demo").innerHTML += '##';
         document.getElementById("demo").innerHTML += elements[0];
         document.getElementById("demo").innerHTML += '<br><table><tr><td><img src="';
         document.getElementById("demo").innerHTML += elements[1];
-        document.getElementById("demo").innerHTML += '" alt="';
+        document.getElementById("demo").innerHTML += '"';
+        document.getElementById("demo").innerHTML += ' alt="';
         document.getElementById("demo").innerHTML += elements[0];
-        document.getElementById("demo").innerHTML += '" style="width: 200px;"/></td> <td><p>';
+        document.getElementById("demo").innerHTML += '"';
+        document.getElementById("demo").innerHTML += ' style="width: 200px;" /></td> <td><p>';
         document.getElementById("demo").innerHTML += elements[2];
         document.getElementById("demo").innerHTML += ' <br><b>';
         document.getElementById("demo").innerHTML += elements[3];
