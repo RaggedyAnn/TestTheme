@@ -10,7 +10,7 @@ txtFile.onload = function() {
     allText = txtFile.responseText;
     allTextLines = allText.split(/\r\n|\n/);
     for(var i = 1; i < allTextLines.length; i++) {
-      document.getElementById("demo").innerHTML += '<a href="#' + i + '"></a>';
+      document.getElementById("demo").innerHTML += '<p><a href="#' + i + '"></a></p>';
     }
 
     for(var i = 1; i < allTextLines.length; i++) {
