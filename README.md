@@ -14,8 +14,7 @@ txtFile.onload = function() {
         document.getElementById("demo").innerHTML += allTextLines[i];
         document.getElementById("demo").innerHTML += '<br/>';
         elements = allTextLines[i].split(",");
-        document.getElementById("demo").innerHTML += '##';
-        document.getElementById("demo").innerHTML += elements[0];
+        document.getElementById("demo").innerHTML += '##' + elements[0];
         document.getElementById("demo").innerHTML += '<br/><table><tr><td><img src="';
         document.getElementById("demo").innerHTML += elements[1];
         document.getElementById("demo").innerHTML += '"';
