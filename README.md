@@ -13,8 +13,8 @@ txtFile.onload = function() {
     for(var i = 0; i < allTextLines.length; i++) {
         document.getElementById("demo").innerHTML += allTextLines[i];
         elements = allTextLines[i].split(",");
-        document.getElementsbyId("demo").innerHTML += '##';
-        document.getElementsbyId("demo").innerHTML += elements[0];
+        document.getElementById("demo").innerHTML += '##';
+        document.getElementById("demo").innerHTML += elements[0];
         document.getElementById("demo").innerHTML += '<br><table><tr><td><img src="';
         document.getElementById("demo").innerHTML += elements[1];
         document.getElementById("demo").innerHTML += '" alt="';
