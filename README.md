@@ -4,7 +4,7 @@
 
 * [Neumann TLM 103](#neumann-tlm-103)
 
-<section id="demo"></section>
+<section id="demo" markdown="block"></section>
 
 <script type="text/javascript">
 var txtFile = new XMLHttpRequest();
