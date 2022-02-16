@@ -15,17 +15,7 @@ txtFile.onload = function() {
         document.getElementById("demo").innerHTML += '<br/>';
         elements = allTextLines[i].split(",");
         document.getElementById("demo").innerHTML += '## ' + elements[0];
-        document.getElementById("demo").innerHTML += '<br/><table><tr><td><img src="';
-        document.getElementById("demo").innerHTML += elements[1];
-        document.getElementById("demo").innerHTML += '"';
-        document.getElementById("demo").innerHTML += 'alt="';
-        document.getElementById("demo").innerHTML += elements[0];
-        document.getElementById("demo").innerHTML += '"';
-        document.getElementById("demo").innerHTML += 'style="width: 200px;" /></td> <td><p>';
-        document.getElementById("demo").innerHTML += elements[2];
-        document.getElementById("demo").innerHTML += '<br/><b>';
-        document.getElementById("demo").innerHTML += elements[3];
-        document.getElementById("demo").innerHTML += '</b></p></td></tr></table><br/>';
+        document.getElementById("demo").innerHTML += '<br/><table><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
     }
 }
 
