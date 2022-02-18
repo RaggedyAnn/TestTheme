@@ -7,26 +7,26 @@ permalink: /audiodesign/
 
 ## Indhold
 
-<section id="demo"></section>
+<section id="tabelsetup"></section>
 
 <script type="text/javascript">
 var txtFile = new XMLHttpRequest();
 txtFile.onload = function() {
     allText = txtFile.responseText;
     allTextLines = allText.split(/\r\n|\n/);
-    for(var i = 1; i < allTextLines.length; i++) {
+    for(var i = 1; i < allTextLines.length-1; i++) {
       elements = allTextLines[i].split(",");
-      document.getElementById("demo").innerHTML += '<a href="#' + i + '">' + elements[0] + '</a><br/>';
+      document.getElementById("tabelsetup").innerHTML += '<a href="#' + i + '">' + elements[0] + '</a><br/>';
     }
-    document.getElementById("demo").innerHTML += '<hr>';
+    document.getElementById("tabelsetup").innerHTML += '<br/><hr>';
 
-    for(var i = 1; i < allTextLines.length; i++) {
+    for(var i = 1; i < allTextLines.length-1; i++) {
         elements = allTextLines[i].split(",");
-        document.getElementById("demo").innerHTML += '<h2 id=' + i + '>' + elements[0] + '</h2>';
-        document.getElementById("demo").innerHTML += '<br/><table><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+        document.getElementById("tabelsetup").innerHTML += '<h2 id=' + i + '>' + elements[0] + '</h2>';
+        document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
     }
 }
 
-txtFile.open("get", "test2.csv", true);
+txtFile.open("get", "AudiodesignTabel.csv", true);
 txtFile.send();
 </script>
