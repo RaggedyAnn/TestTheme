@@ -10,9 +10,11 @@ permalink: /dd-inf/
 
 ## Indhold
 
-<section id="demo"></section>
+<section id="tabelsetup"></section>
 
-<script type="text/javascript">
+<script type="text/javascript" src="/tableScript.js"></scipt>
+
+<!-- <script type="text/javascript">
 var txtFile = new XMLHttpRequest();
 txtFile.onload = function() {
     allText = txtFile.responseText;
@@ -33,3 +35,4 @@ txtFile.onload = function() {
 txtFile.open("get", "test2.csv", true);
 txtFile.send();
 </script>
+-->
