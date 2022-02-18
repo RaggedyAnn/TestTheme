@@ -1,27 +1,8 @@
-## [DD Lab Faciliteter og Udstyr](https://raggedyann.github.io/TestTheme/dd-inf/)
-&nbsp;
-## [Audiodesign Faciliteter og Udstyr](https://raggedyann.github.io/TestTheme/audiodesign/)
+# Github page med overblik over DD Labs udstyr og Faciliteter
+Dette er et en github page med et overblik over tilgængeligt udstyr og tilgængelige faciliteter i DD Lab.
 
-<section id="demo" markdown="block"></section>
-
-<script type="text/javascript">
-var txtFile = new XMLHttpRequest();
-txtFile.onload = function() {
-    allText = txtFile.responseText;
-    allTextLines = allText.split(/\r\n|\n/);
-    for(var i = 1; i < allTextLines.length; i++) {
-      elements = allTextLines[i].split(",");
-      document.getElementById("demo").innerHTML += '<a href="#' + i + '">' + elements[0] + '</a><br/>';
-    }
-    document.getElementById("demo").innerHTML += '<hr>';
-
-    for(var i = 1; i < allTextLines.length; i++) {
-        elements = allTextLines[i].split(",");
-        document.getElementById("demo").innerHTML += '<h2 id=' + i + '>' + elements[0] + '</h2>';
-        document.getElementById("demo").innerHTML += '<br/><table><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
-    }
-}
-
-txtFile.open("get", "test2.csv", true);
-txtFile.send();
-</script>
+## Guide for ansatte
+Her er en guide til at tilføje udstyr eller faciliteter til siden.
+Siden er opdelt mellem DD Lab og Audiodesign.
+For at tilføje til listen med DD Lab udstyr...
+For at tilføje til listen med Audiodesign udstyr...
