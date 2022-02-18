@@ -12,7 +12,7 @@ permalink: /dd-inf/
 
 <section id="tabelsetup"></section>
 
-<script type="text/javascript" src="/dd-inf/tableScript.js"></scipt>
+<script type="text/javascript" src="/TestTheme/dd-inf/tableScript.js"></scipt>
 
 <!-- <script type="text/javascript">
 var txtFile = new XMLHttpRequest();
