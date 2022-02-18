@@ -18,7 +18,7 @@ txtFile.onload = function() {
       elements = allTextLines[i].split(",");
       document.getElementById("tabelsetup").innerHTML += '<a href="#' + i + '">' + elements[0] + '</a><br/>';
     }
-    document.getElementById("tabelsetup").innerHTML += '<hr>';
+    document.getElementById("tabelsetup").innerHTML += '<br/><hr>';
 
     for(var i = 1; i < allTextLines.length-1; i++) {
         elements = allTextLines[i].split(",");
