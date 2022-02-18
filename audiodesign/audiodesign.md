@@ -7,7 +7,7 @@ permalink: /audiodesign/
 
 ## Indhold
 
-<section id="demo" markdown="block"></section>
+<section id="demo"></section>
 
 <script type="text/javascript">
 var txtFile = new XMLHttpRequest();
