@@ -1,18 +1,3 @@
----
-theme: jekyll-theme-minimal
-title: "Digital Design og Informationsvidenskab"
-permalink: /dd-inf/
----
-# DD Lab Udstyr og faciliteter
-
-## AxiDraw SE/A3 Plotter
-![AxiDraw SE/A3 Plotter](https://cdn.evilmadscientist.com/sites/axidraw/sea3_1920c.jpg)
-
-## Indhold
-
-<section id="demo"></section>
-
-<script type="text/javascript">
 var txtFile = new XMLHttpRequest();
 txtFile.onload = function() {
     allText = txtFile.responseText;
@@ -32,4 +17,3 @@ txtFile.onload = function() {
 
 txtFile.open("get", "test2.csv", true);
 txtFile.send();
-</script>
