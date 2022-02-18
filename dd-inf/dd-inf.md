@@ -5,9 +5,6 @@ permalink: /dd-inf/
 ---
 # DD Lab Udstyr og faciliteter
 
-## AxiDraw SE/A3 Plotter
-![AxiDraw SE/A3 Plotter](https://cdn.evilmadscientist.com/sites/axidraw/sea3_1920c.jpg)
-
 ## Indhold
 
 <section id="tabelsetup"></section>
