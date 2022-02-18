@@ -5,23 +5,28 @@ permalink: /audiodesign/
 ---
 # Audiodesign Udstyr og Faciliteter
 
-<!-- TOC titleSize:2 tabSpaces:2 depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 skip:0 title:1 charForUnorderedList:* -->
-## Table of Contents
-* [Audiodesign Udstyr og Faciliteter](#audiodesign-udstyr-og-faciliteter)
-  * [Neumann TLM 103](#neumann-tlm-103)
-<!-- /TOC -->
+## Indhold
 
-## Neumann TLM 103
-<table><tr> <td>
-<img
-  src="https://www.neumann.com/homestudio/pictures/203/show/750x750/crop/TLM103+with+SG2.png?sh=e8cb782eee096d13"
-  alt="Neumann TLM 103"
-  style="width: 200px;"/>
-</td> <td>
-<p> Neumann TLM 103 <br> <b>Kan udlånes </b> </p>
-</td></tr></table>
+<section id="demo" markdown="block"></section>
 
-<!--
-A|B
--|-
-![](https://www.neumann.com/homestudio/pictures/203/show/750x750/crop/TLM103+with+SG2.png?sh=e8cb782eee096d13) | Neumann TLM 103 <br> Kan udlånes </br> -->
+<script type="text/javascript">
+var txtFile = new XMLHttpRequest();
+txtFile.onload = function() {
+    allText = txtFile.responseText;
+    allTextLines = allText.split(/\r\n|\n/);
+    for(var i = 1; i < allTextLines.length; i++) {
+      elements = allTextLines[i].split(",");
+      document.getElementById("demo").innerHTML += '<a href="#' + i + '">' + elements[0] + '</a><br/>';
+    }
+    document.getElementById("demo").innerHTML += '<hr>';
+
+    for(var i = 1; i < allTextLines.length; i++) {
+        elements = allTextLines[i].split(",");
+        document.getElementById("demo").innerHTML += '<h2 id=' + i + '>' + elements[0] + '</h2>';
+        document.getElementById("demo").innerHTML += '<br/><table><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+    }
+}
+
+txtFile.open("get", "test2.csv", true);
+txtFile.send();
+</script>

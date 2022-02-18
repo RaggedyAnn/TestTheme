@@ -5,13 +5,31 @@ permalink: /dd-inf/
 ---
 # DD Lab Udstyr og faciliteter
 
-## Indhold
-<!-- TOC titleSize:2 tabSpaces:2 depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 skip:0 title:1 charForUnorderedList:* -->
-## Table of Contents
-* [DD Lab Udstyr og faciliteter](#dd-lab-udstyr-og-faciliteter)
-  * [Indhold](#indhold)
-  * [AxiDraw SE/A3 Plotter](#axidraw-sea3-plotter)
-<!-- /TOC -->
-
 ## AxiDraw SE/A3 Plotter
 ![AxiDraw SE/A3 Plotter](https://cdn.evilmadscientist.com/sites/axidraw/sea3_1920c.jpg)
+
+## Indhold
+
+<section id="demo" markdown="block"></section>
+
+<script type="text/javascript">
+var txtFile = new XMLHttpRequest();
+txtFile.onload = function() {
+    allText = txtFile.responseText;
+    allTextLines = allText.split(/\r\n|\n/);
+    for(var i = 1; i < allTextLines.length; i++) {
+      elements = allTextLines[i].split(",");
+      document.getElementById("demo").innerHTML += '<a href="#' + i + '">' + elements[0] + '</a><br/>';
+    }
+    document.getElementById("demo").innerHTML += '<hr>';
+
+    for(var i = 1; i < allTextLines.length; i++) {
+        elements = allTextLines[i].split(",");
+        document.getElementById("demo").innerHTML += '<h2 id=' + i + '>' + elements[0] + '</h2>';
+        document.getElementById("demo").innerHTML += '<br/><table><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+    }
+}
+
+txtFile.open("get", "test2.csv", true);
+txtFile.send();
+</script>
