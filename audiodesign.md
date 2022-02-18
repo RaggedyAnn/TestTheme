@@ -27,6 +27,6 @@ txtFile.onload = function() {
     }
 }
 
-txtFile.open("get", "test2.csv", true);
+txtFile.open("get", "https://github.com/RaggedyAnn/TestTheme/blob/main/test2.csv", true);
 txtFile.send();
 </script>
