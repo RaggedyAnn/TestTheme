@@ -16,14 +16,21 @@ txtFile.onload = function() {
     allTextLines = allText.split(/\r\n|\n/);
     for(var i = 1; i < allTextLines.length-1; i++) {
       elements = allTextLines[i].split(",");
-      document.getElementById("tabelsetup").innerHTML += '<a href="#' + i + '">' + elements[0] + '</a><br/>';
+      if (elements[0].equals("overskrift")){
+        document.getElementById("tabelsetup").innerHTML += '<a href="#' + i + '">' + elements[1] + '</a><br/>';
+      }
     }
     document.getElementById("tabelsetup").innerHTML += '<br/><hr>';
 
     for(var i = 1; i < allTextLines.length-1; i++) {
         elements = allTextLines[i].split(",");
-        document.getElementById("tabelsetup").innerHTML += '<h2 id=' + i + '>' + elements[0] + '</h2>';
-        document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+        if (elements[0].equals("overskrift")){
+          document.getElementById("tabelsetup").innerHTML += '<h1 id=' + i + '>' + elements[1] + '</h1>';
+        } else {
+          document.getElementById("tabelsetup").innerHTML += '<h2>' + elements[0] + '</h2>';
+          document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+        }
+
     }
 }
 
