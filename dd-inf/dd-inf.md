@@ -5,7 +5,7 @@ permalink: /dd-inf/
 ---
 # DD Lab Udstyr og faciliteter
 
-## Indhold
+## Kategorier
 
 <section id="tabelsetup"></section>
 
