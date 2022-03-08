@@ -7,6 +7,7 @@
   </tr>
 </table>
 
+[]
 Her kan du få et overblik over det udstyr og de faciliteter DD Lab og Audiodesign har at tilbyde.
 
 Vælg én af ovenstående muligheder for at se overblikket over de pågældende faciliteter og det pågældende udstyr.
@@ -18,3 +19,5 @@ Ansatte i DD Lab har lavet vejledninger til flere af vores faciliteter. Vær opm
 Noget med Aarhus Universitet.
 
 Send spørgsmål til [ddlabau@gmail.com](mailto:ddlabau@gmail.com)
+
+[DDlab udstyr link test](/dd-inf/)
