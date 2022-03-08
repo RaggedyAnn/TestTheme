@@ -5,9 +5,9 @@
 
 <table>
   <tr>
-    <td><a href="https://raggedyann.github.io/TestTheme/dd-inf/">DD Lab Faciliteter og Udstyr</a>
+    <td><h2><a href="https://raggedyann.github.io/TestTheme/dd-inf/">DD Lab Faciliteter og Udstyr</a></h2>
     </td>
-    <td><a href="https://raggedyann.github.io/TestTheme/audiodesign/">Audiodesign Faciliteter og Udstyr</a>
+    <td><h2><a href="https://raggedyann.github.io/TestTheme/audiodesign/">Audiodesign Faciliteter og Udstyr</a></h2>
     </td>
   </tr>
 </table>
