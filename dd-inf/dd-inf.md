@@ -29,7 +29,7 @@ txtFile.onload = function() {
           document.getElementById("tabelsetup").innerHTML += '<h1 id=' + i + '>' + elements[1] + '</h1>';
         } else {
           document.getElementById("tabelsetup").innerHTML += '<h3>' + elements[0] + '</h3>';
-          document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+          document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td><h3>' + elements[0] + '</h3></td><td></td></tr><tr><td><img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
         }
 
     }
