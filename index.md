@@ -6,9 +6,10 @@
     </td>
   </tr>
 </table>
-<br/>
 
 Her kan du få et overblik over det udstyr og de faciliteter DD Lab og Audiodesign har at tilbyde.
+
+Vælg en af ovenstående muligheder for at se overblikket over de pågældende faciliteter og det pågældende udstyr.
 
 Det fremgår for hver facilitet eller stykke udstyr, hvorvidt det kan lånes og dermed bringes ud af DD Lab.
 
