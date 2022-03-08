@@ -20,4 +20,6 @@ Noget med Aarhus Universitet.
 
 Send spørgsmål til [ddlabau@gmail.com](mailto:ddlabau@gmail.com)
 
-[DDlab udstyr link test](/dd-inf/)
+[DDlab udstyr link test](/TestTheme/dd-inf/)
+
+<a href="/TestTheme/dd-inf/">DD Lab Faciliteter og Udstyr test 2</a>
