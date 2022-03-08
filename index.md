@@ -9,9 +9,9 @@
 
 Her kan du få et overblik over det udstyr og de faciliteter DD Lab og Audiodesign har at tilbyde.
 
-Vælg en af ovenstående muligheder for at se overblikket over de pågældende faciliteter og det pågældende udstyr.
+Vælg én af ovenstående muligheder for at se overblikket over de pågældende faciliteter og det pågældende udstyr.
 
-Det fremgår for hver facilitet eller stykke udstyr, hvorvidt det kan lånes og dermed bringes ud af DD Lab.
+Det fremgår for hver facilitet eller stykke udstyr, hvorvidt det kan lånes ud og dermed bringes ud af DD Lab.
 
 Ansatte i DD Lab har lavet vejledninger til flere af vores faciliteter. Vær opmærksom på at flere af faciliteterne kræver, at man anmoder om et kørekort til faciliteten eller deltager i en introducerende workshop for at få tilladelse til at benytte faciliteten. Dette vil fremgå af overblikket.
 
