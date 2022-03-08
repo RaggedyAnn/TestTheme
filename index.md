@@ -1,4 +1,4 @@
-<table height="100%" width="100%">
+<table>
   <tr>
     <td><h2><a href="https://raggedyann.github.io/TestTheme/dd-inf/">DD Lab Faciliteter og Udstyr</a></h2>
     </td>
@@ -7,3 +7,13 @@
   </tr>
 </table>
 <br/>
+
+Her kan du få et overblik over det udstyr og de faciliteter DD Lab og Audiodesign har at tilbyde.
+
+Det fremgår for hver facilitet eller stykke udstyr, hvorvidt det kan lånes og dermed bringes ud af DD Lab.
+
+Ansatte i DD Lab har lavet vejledninger til flere af vores faciliteter. Vær opmærksom på at flere af faciliteterne kræver, at man anmoder om et kørekort til faciliteten eller deltager i en introducerende workshop for at få tilladelse til at benytte faciliteten. Dette vil fremgå af overblikket.
+
+Noget med Aarhus Universitet.
+
+Send spørgsmål til [ddlabau@gmail.com](mailto:ddlabau@gmail.com)
