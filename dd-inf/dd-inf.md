@@ -16,7 +16,7 @@ txtFile.onload = function() {
     allTextLines = allText.split(/\r\n|\n/);
     var overskrift = "overskrift";
     for(var i = 1; i < allTextLines.length-1; i++) {
-      elements = allTextLines[i].split(",");
+      elements = allTextLines[i].split(";");
       if (elements[0] === overskrift){
         document.getElementById("tabelsetup").innerHTML += '<a href="#' + i + '">' + elements[1] + '</a><br/>';
       }
@@ -24,7 +24,7 @@ txtFile.onload = function() {
     document.getElementById("tabelsetup").innerHTML += '<br/><hr>';
 
     for(var i = 1; i < allTextLines.length-1; i++) {
-        elements = allTextLines[i].split(",");
+        elements = allTextLines[i].split(";");
         if (elements[0] === overskrift){
           document.getElementById("tabelsetup").innerHTML += '<br/><h1 id=' + i + '>' + elements[1] + '</h1>';
         } else {
