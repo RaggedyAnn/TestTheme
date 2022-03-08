@@ -1,8 +1,8 @@
 <table>
   <tr>
-    <td><h2><a href="/TestTheme/dd-inf/">DD Lab Faciliteter og Udstyr</a></h2>
+    <td><h2><a href="/TestTheme/dd-inf/">DD Lab<br>Faciliteter og Udstyr</a></h2>
     </td>
-    <td><h2><a href="/TestTheme/audiodesign/">Audiodesign Faciliteter og Udstyr</a></h2>
+    <td><h2><a href="/TestTheme/audiodesign/">Audiodesign<br>Faciliteter og Udstyr</a></h2>
     </td>
   </tr>
 </table>
