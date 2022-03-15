@@ -1,3 +1,6 @@
-﻿Titel,Billede,Kommentar,Udlån
-Neumann TLM 103,https://www.neumann.com/homestudio/pictures/203/show/750x750/crop/TLM103+with+SG2.png?sh=e8cb782eee096d13,Neumann TLM 103,ja
-Printer,https://www.elgiganten.dk/image/dv_web_D18000100282224/PIXMATS3151/canon-pixma-ts3151-aio-inkjet-printer-hvid.jpg,modelB,ja
+Titel;Billede;Kommentar;Udlån
+overskrift;3D Printere;-;-
+PRUSA I3 MK3S+ 3D PRINTER;https://www.neumann.com/homestudio/pictures/203/show/750x750/crop/TLM103+with+SG2.png?sh=e8cb782eee096d13;Neumann TLM 103;Kan benyttes I DD Lab
+Printer;https://www.elgiganten.dk/image/dv_web_D18000100282224/PIXMATS3151/canon-pixma-ts3151-aio-inkjet-printer-hvid.jpg;modelB;ja
+overskrift;3D printere;-;-
+AxiDraw SE/A3 Plotter;https://cdn.evilmadscientist.com/sites/axidraw/sea3_1920c.jpg;Plotter;ja
